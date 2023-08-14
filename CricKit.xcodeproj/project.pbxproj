@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		460FD2012A841E4100029FD7 /* PlayerProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD1FF2A841E4100029FD7 /* PlayerProfileView.swift */; };
+		460FD2022A841E4100029FD7 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD2002A841E4100029FD7 /* Extension.swift */; };
+		460FD2052A841F1700029FD7 /* PlayerBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD2042A841F1700029FD7 /* PlayerBackgroundView.swift */; };
+		460FD2072A841FCC00029FD7 /* PlayerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD2062A841FCC00029FD7 /* PlayerHeaderView.swift */; };
+		460FD2092A84203C00029FD7 /* PlayerStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD2082A84203C00029FD7 /* PlayerStatsView.swift */; };
+		460FD20B2A84210100029FD7 /* RoundedRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD20A2A84210100029FD7 /* RoundedRectangleView.swift */; };
+		460FD24E2A84E75700029FD7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD24D2A84E75700029FD7 /* CardView.swift */; };
+		460FD2502A84E77600029FD7 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD24F2A84E77600029FD7 /* CustomTabBar.swift */; };
+		460FD2522A84E79600029FD7 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD2512A84E79600029FD7 /* CustomTextField.swift */; };
+		460FD2542A84E7AF00029FD7 /* RotationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD2532A84E7AF00029FD7 /* RotationButton.swift */; };
+		460FD2582A84E83400029FD7 /* ShopPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD2572A84E83400029FD7 /* ShopPage.swift */; };
+		460FD25B2A84E85E00029FD7 /* UserProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD25A2A84E85E00029FD7 /* UserProfilePage.swift */; };
+		460FD25E2A84E8A700029FD7 /* SignInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD25D2A84E8A700029FD7 /* SignInPage.swift */; };
+		460FD2602A84E8B500029FD7 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD25F2A84E8B500029FD7 /* SignInView.swift */; };
+		460FD2622A84E8C900029FD7 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD2612A84E8C900029FD7 /* SignUpView.swift */; };
+		460FD2652A84E9D200029FD7 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD2642A84E9D200029FD7 /* HomePage.swift */; };
+		460FD2672A84EA0700029FD7 /* TextFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD2662A84EA0700029FD7 /* TextFieldValidator.swift */; };
+		460FD26B2A84EA4F00029FD7 /* CustomViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD26A2A84EA4F00029FD7 /* CustomViewModifiers.swift */; };
+		460FD26D2A84EA8400029FD7 /* HomeSectionObservables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD26C2A84EA8400029FD7 /* HomeSectionObservables.swift */; };
+		460FD26F2A84EB7400029FD7 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD26E2A84EB7400029FD7 /* test.swift */; };
+		4639280F2A7EC0B1002C2767 /* CricKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4639280E2A7EC0B1002C2767 /* CricKitApp.swift */; };
+		463928132A7EC0B3002C2767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 463928122A7EC0B3002C2767 /* Assets.xcassets */; };
+		463928162A7EC0B3002C2767 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 463928152A7EC0B3002C2767 /* Preview Assets.xcassets */; };
+		B24D928D2A8A2EF70060AFEF /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24D928C2A8A2EF70060AFEF /* BlurView.swift */; };
+		B24D92902A8A34A10060AFEF /* RecentMatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24D928F2A8A34A10060AFEF /* RecentMatchesView.swift */; };
+		B2D92C7B2A89E4D000E63034 /* MatchLiveSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D92C7A2A89E4D000E63034 /* MatchLiveSectionView.swift */; };
+		B2D92C822A89F66200E63034 /* FeaturedPlayersSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D92C812A89F66200E63034 /* FeaturedPlayersSectionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		460FD1FF2A841E4100029FD7 /* PlayerProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerProfileView.swift; sourceTree = "<group>"; };
+		460FD2002A841E4100029FD7 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		460FD2042A841F1700029FD7 /* PlayerBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBackgroundView.swift; sourceTree = "<group>"; };
+		460FD2062A841FCC00029FD7 /* PlayerHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerHeaderView.swift; sourceTree = "<group>"; };
+		460FD2082A84203C00029FD7 /* PlayerStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerStatsView.swift; sourceTree = "<group>"; };
+		460FD20A2A84210100029FD7 /* RoundedRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleView.swift; sourceTree = "<group>"; };
+		460FD24D2A84E75700029FD7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		460FD24F2A84E77600029FD7 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		460FD2512A84E79600029FD7 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		460FD2532A84E7AF00029FD7 /* RotationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationButton.swift; sourceTree = "<group>"; };
+		460FD2572A84E83400029FD7 /* ShopPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopPage.swift; sourceTree = "<group>"; };
+		460FD25A2A84E85E00029FD7 /* UserProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfilePage.swift; sourceTree = "<group>"; };
+		460FD25D2A84E8A700029FD7 /* SignInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPage.swift; sourceTree = "<group>"; };
+		460FD25F2A84E8B500029FD7 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		460FD2612A84E8C900029FD7 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		460FD2642A84E9D200029FD7 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		460FD2662A84EA0700029FD7 /* TextFieldValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldValidator.swift; sourceTree = "<group>"; };
+		460FD26A2A84EA4F00029FD7 /* CustomViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifiers.swift; sourceTree = "<group>"; };
+		460FD26C2A84EA8400029FD7 /* HomeSectionObservables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionObservables.swift; sourceTree = "<group>"; };
+		460FD26E2A84EB7400029FD7 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		4639280B2A7EC0B1002C2767 /* CricKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CricKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4639280E2A7EC0B1002C2767 /* CricKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricKitApp.swift; sourceTree = "<group>"; };
+		463928122A7EC0B3002C2767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		463928152A7EC0B3002C2767 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B24D928C2A8A2EF70060AFEF /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		B24D928F2A8A34A10060AFEF /* RecentMatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentMatchesView.swift; sourceTree = "<group>"; };
+		B2D92C7A2A89E4D000E63034 /* MatchLiveSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchLiveSectionView.swift; sourceTree = "<group>"; };
+		B2D92C812A89F66200E63034 /* FeaturedPlayersSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlayersSectionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		463928082A7EC0B1002C2767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		460FD2032A841E7800029FD7 /* PlayerProfile */ = {
+			isa = PBXGroup;
+			children = (
+				460FD1FF2A841E4100029FD7 /* PlayerProfileView.swift */,
+				460FD2042A841F1700029FD7 /* PlayerBackgroundView.swift */,
+				460FD2062A841FCC00029FD7 /* PlayerHeaderView.swift */,
+				460FD2082A84203C00029FD7 /* PlayerStatsView.swift */,
+			);
+			path = PlayerProfile;
+			sourceTree = "<group>";
+		};
+		460FD20C2A8422B700029FD7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				460FD2002A841E4100029FD7 /* Extension.swift */,
+				460FD20A2A84210100029FD7 /* RoundedRectangleView.swift */,
+				460FD2662A84EA0700029FD7 /* TextFieldValidator.swift */,
+				460FD26A2A84EA4F00029FD7 /* CustomViewModifiers.swift */,
+				460FD26C2A84EA8400029FD7 /* HomeSectionObservables.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		460FD24C2A84E72500029FD7 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				B24D928E2A8A348C0060AFEF /* RecentMatchesView */,
+				B2D92C802A89F62C00E63034 /* FeaturedPlayersSectionView */,
+				4667B2AC2A8963B000DB95BE /* MatchLiveSectionView */,
+				460FD24D2A84E75700029FD7 /* CardView.swift */,
+				460FD24F2A84E77600029FD7 /* CustomTabBar.swift */,
+				460FD2512A84E79600029FD7 /* CustomTextField.swift */,
+				460FD2532A84E7AF00029FD7 /* RotationButton.swift */,
+				B24D928C2A8A2EF70060AFEF /* BlurView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		460FD2562A84E81A00029FD7 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				460FD2572A84E83400029FD7 /* ShopPage.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		460FD2592A84E84A00029FD7 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				460FD25A2A84E85E00029FD7 /* UserProfilePage.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		460FD2632A84E9C500029FD7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				460FD2642A84E9D200029FD7 /* HomePage.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		460FD2702A85066B00029FD7 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				460FD2712A85070300029FD7 /* SignIn */,
+				460FD2562A84E81A00029FD7 /* Shop */,
+				460FD2632A84E9C500029FD7 /* Home */,
+				460FD2592A84E84A00029FD7 /* Profile */,
+				460FD26E2A84EB7400029FD7 /* test.swift */,
+			);
+			name = Pages;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		460FD2712A85070300029FD7 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				460FD2612A84E8C900029FD7 /* SignUpView.swift */,
+				460FD25F2A84E8B500029FD7 /* SignInView.swift */,
+				460FD25D2A84E8A700029FD7 /* SignInPage.swift */,
+			);
+			name = SignIn;
+			path = Sign;
+			sourceTree = "<group>";
+		};
+		463928022A7EC0B1002C2767 = {
+			isa = PBXGroup;
+			children = (
+				4639280D2A7EC0B1002C2767 /* CricKit */,
+				4639280C2A7EC0B1002C2767 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4639280C2A7EC0B1002C2767 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4639280B2A7EC0B1002C2767 /* CricKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4639280D2A7EC0B1002C2767 /* CricKit */ = {
+			isa = PBXGroup;
+			children = (
+				4639280E2A7EC0B1002C2767 /* CricKitApp.swift */,
+				460FD2702A85066B00029FD7 /* Pages */,
+				460FD24C2A84E72500029FD7 /* CustomViews */,
+				460FD20C2A8422B700029FD7 /* Helper */,
+				460FD2032A841E7800029FD7 /* PlayerProfile */,
+				463928122A7EC0B3002C2767 /* Assets.xcassets */,
+				463928142A7EC0B3002C2767 /* Preview Content */,
+			);
+			path = CricKit;
+			sourceTree = "<group>";
+		};
+		463928142A7EC0B3002C2767 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				463928152A7EC0B3002C2767 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4667B2AC2A8963B000DB95BE /* MatchLiveSectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B2D92C7A2A89E4D000E63034 /* MatchLiveSectionView.swift */,
+			);
+			path = MatchLiveSectionView;
+			sourceTree = "<group>";
+		};
+		B24D928E2A8A348C0060AFEF /* RecentMatchesView */ = {
+			isa = PBXGroup;
+			children = (
+				B24D928F2A8A34A10060AFEF /* RecentMatchesView.swift */,
+			);
+			name = RecentMatchesView;
+			sourceTree = "<group>";
+		};
+		B2D92C802A89F62C00E63034 /* FeaturedPlayersSectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B2D92C812A89F66200E63034 /* FeaturedPlayersSectionView.swift */,
+			);
+			name = FeaturedPlayersSectionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4639280A2A7EC0B1002C2767 /* CricKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463928192A7EC0B3002C2767 /* Build configuration list for PBXNativeTarget "CricKit" */;
+			buildPhases = (
+				463928072A7EC0B1002C2767 /* Sources */,
+				463928082A7EC0B1002C2767 /* Frameworks */,
+				463928092A7EC0B1002C2767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CricKit;
+			productName = CricKit;
+			productReference = 4639280B2A7EC0B1002C2767 /* CricKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		463928032A7EC0B1002C2767 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4639280A2A7EC0B1002C2767 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 463928062A7EC0B1002C2767 /* Build configuration list for PBXProject "CricKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 463928022A7EC0B1002C2767;
+			productRefGroup = 4639280C2A7EC0B1002C2767 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4639280A2A7EC0B1002C2767 /* CricKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		463928092A7EC0B1002C2767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463928162A7EC0B3002C2767 /* Preview Assets.xcassets in Resources */,
+				463928132A7EC0B3002C2767 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		463928072A7EC0B1002C2767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460FD25B2A84E85E00029FD7 /* UserProfilePage.swift in Sources */,
+				460FD2542A84E7AF00029FD7 /* RotationButton.swift in Sources */,
+				B24D92902A8A34A10060AFEF /* RecentMatchesView.swift in Sources */,
+				460FD2072A841FCC00029FD7 /* PlayerHeaderView.swift in Sources */,
+				4639280F2A7EC0B1002C2767 /* CricKitApp.swift in Sources */,
+				460FD2672A84EA0700029FD7 /* TextFieldValidator.swift in Sources */,
+				460FD2652A84E9D200029FD7 /* HomePage.swift in Sources */,
+				460FD26B2A84EA4F00029FD7 /* CustomViewModifiers.swift in Sources */,
+				460FD25E2A84E8A700029FD7 /* SignInPage.swift in Sources */,
+				460FD2052A841F1700029FD7 /* PlayerBackgroundView.swift in Sources */,
+				460FD26D2A84EA8400029FD7 /* HomeSectionObservables.swift in Sources */,
+				460FD2602A84E8B500029FD7 /* SignInView.swift in Sources */,
+				460FD2582A84E83400029FD7 /* ShopPage.swift in Sources */,
+				460FD2012A841E4100029FD7 /* PlayerProfileView.swift in Sources */,
+				460FD26F2A84EB7400029FD7 /* test.swift in Sources */,
+				460FD2522A84E79600029FD7 /* CustomTextField.swift in Sources */,
+				460FD2502A84E77600029FD7 /* CustomTabBar.swift in Sources */,
+				460FD2022A841E4100029FD7 /* Extension.swift in Sources */,
+				B24D928D2A8A2EF70060AFEF /* BlurView.swift in Sources */,
+				460FD2622A84E8C900029FD7 /* SignUpView.swift in Sources */,
+				460FD20B2A84210100029FD7 /* RoundedRectangleView.swift in Sources */,
+				460FD24E2A84E75700029FD7 /* CardView.swift in Sources */,
+				460FD2092A84203C00029FD7 /* PlayerStatsView.swift in Sources */,
+				B2D92C7B2A89E4D000E63034 /* MatchLiveSectionView.swift in Sources */,
+				B2D92C822A89F66200E63034 /* FeaturedPlayersSectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		463928172A7EC0B3002C2767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		463928182A7EC0B3002C2767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4639281A2A7EC0B3002C2767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CricKit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSAthon.CricKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4639281B2A7EC0B3002C2767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CricKit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSAthon.CricKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		463928062A7EC0B1002C2767 /* Build configuration list for PBXProject "CricKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463928172A7EC0B3002C2767 /* Debug */,
+				463928182A7EC0B3002C2767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		463928192A7EC0B3002C2767 /* Build configuration list for PBXNativeTarget "CricKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4639281A2A7EC0B3002C2767 /* Debug */,
+				4639281B2A7EC0B3002C2767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 463928032A7EC0B1002C2767 /* Project object */;
+}
